@@ -1,0 +1,40 @@
+console.log(" ") uso pra escrever algo que vai ser lido, seja com declaração ou não
+let= uso pra variaveis
+const = uso pra constantes, não posso mudar
+$() uso pra declarar algo dentro de novas declarações 
+Não se usa virgula em números tipo 3.2
+O javascript sempre vai tentar dividir ou multiplicar se tiver números em forma de texto, mas se for um Nome em texto / por um numero em texto, ele não vai conseguir
+parseInt faz um numero em formato de texto ser reconhecido como número, até de fato ter texto
+Se tiver números em forma de texto "2" + "2" vai ler como 22 e não 4, então preciso usar console.log(parseInt("2") + parseInt("2"))
+// eu uso se quiser usar uma linha inteira para uma anotação
+/* */ eu uso se quiser um bloco para anotação 
+Se eu usar um console.log(Idade) e tentar usar um const idade não vai ser lido, já que eu declarei uma >I<dade
+Sempre tentar deixar com nomes mega especificios, tipo primeiroNome pra Braian, ao invés de só nome
+
+
+uma coisa interessante:
+const primeiroNome = "Braian" //variável tipo texto
+const sobrenome = "Sins" //variável tipo texto
+
+const nomeCompleto = `${primeiroNome} ${sobrenome}`
+
+console.log(nomeCompleto)
+
+
+vai ler Braian Sins (com espaço por causa do ${}  ${})
+
+
+const listaDeDestinos = new Array( //fazer uma lista = new Array
+    'Salvador ',
+    'Sao Paulo',
+    'Rio de Janeiro ',)
+
+    Faço lista com new array
+
+
+posso usar IF como uma possibilidade pro programa, tipo (if (idade da pessoa <=18) {
+    console.log("não pegar")
+    listaDeDestinosMotivos(1, 1) //removo algum item
+} else {
+    console.log("pessoa maior de idade, pode pegar")
+})
